@@ -8,9 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selection: Tab = .main
+    
+    enum Tab {
+        case main
+        case settings
+    }
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView(selection: $selection) {
+            MainView()
+                .tabItem {
+                    Label("메인", systemImage: "house")
+                }
+                .tag(Tab.main)
+            
+            SettingsView()
+                .tabItem {
+                    Label("설정", systemImage: "slider.horizontal.3")
+                }
+                .tag(Tab.settings)
+        }
     }
 }
 
