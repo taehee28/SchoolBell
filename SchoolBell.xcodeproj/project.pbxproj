@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8DE778426E375B200FB7D62 /* SchoolBellApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DE778326E375B200FB7D62 /* SchoolBellApp.swift */; };
+		C8DE778626E375B200FB7D62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DE778526E375B200FB7D62 /* ContentView.swift */; };
+		C8DE778826E375B300FB7D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8DE778726E375B300FB7D62 /* Assets.xcassets */; };
+		C8DE778B26E375B300FB7D62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8DE778A26E375B300FB7D62 /* Preview Assets.xcassets */; };
+		C8DE779626E375B300FB7D62 /* SchoolBellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DE779526E375B300FB7D62 /* SchoolBellTests.swift */; };
+		C8DE77A126E375B300FB7D62 /* SchoolBellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DE77A026E375B300FB7D62 /* SchoolBellUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8DE779226E375B300FB7D62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8DE777826E375B200FB7D62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8DE777F26E375B200FB7D62;
+			remoteInfo = SchoolBell;
+		};
+		C8DE779D26E375B300FB7D62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8DE777826E375B200FB7D62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8DE777F26E375B200FB7D62;
+			remoteInfo = SchoolBell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8DE778026E375B200FB7D62 /* SchoolBell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolBell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8DE778326E375B200FB7D62 /* SchoolBellApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolBellApp.swift; sourceTree = "<group>"; };
+		C8DE778526E375B200FB7D62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C8DE778726E375B300FB7D62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8DE778A26E375B300FB7D62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8DE778C26E375B300FB7D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8DE779126E375B300FB7D62 /* SchoolBellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolBellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8DE779526E375B300FB7D62 /* SchoolBellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolBellTests.swift; sourceTree = "<group>"; };
+		C8DE779726E375B300FB7D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8DE779C26E375B300FB7D62 /* SchoolBellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolBellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8DE77A026E375B300FB7D62 /* SchoolBellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolBellUITests.swift; sourceTree = "<group>"; };
+		C8DE77A226E375B300FB7D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8DE777D26E375B200FB7D62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8DE778E26E375B300FB7D62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8DE779926E375B300FB7D62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8DE777726E375B200FB7D62 = {
+			isa = PBXGroup;
+			children = (
+				C8DE778226E375B200FB7D62 /* SchoolBell */,
+				C8DE779426E375B300FB7D62 /* SchoolBellTests */,
+				C8DE779F26E375B300FB7D62 /* SchoolBellUITests */,
+				C8DE778126E375B200FB7D62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8DE778126E375B200FB7D62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8DE778026E375B200FB7D62 /* SchoolBell.app */,
+				C8DE779126E375B300FB7D62 /* SchoolBellTests.xctest */,
+				C8DE779C26E375B300FB7D62 /* SchoolBellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8DE778226E375B200FB7D62 /* SchoolBell */ = {
+			isa = PBXGroup;
+			children = (
+				C8DE778326E375B200FB7D62 /* SchoolBellApp.swift */,
+				C8DE778526E375B200FB7D62 /* ContentView.swift */,
+				C8DE778726E375B300FB7D62 /* Assets.xcassets */,
+				C8DE778C26E375B300FB7D62 /* Info.plist */,
+				C8DE778926E375B300FB7D62 /* Preview Content */,
+			);
+			path = SchoolBell;
+			sourceTree = "<group>";
+		};
+		C8DE778926E375B300FB7D62 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C8DE778A26E375B300FB7D62 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C8DE779426E375B300FB7D62 /* SchoolBellTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8DE779526E375B300FB7D62 /* SchoolBellTests.swift */,
+				C8DE779726E375B300FB7D62 /* Info.plist */,
+			);
+			path = SchoolBellTests;
+			sourceTree = "<group>";
+		};
+		C8DE779F26E375B300FB7D62 /* SchoolBellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C8DE77A026E375B300FB7D62 /* SchoolBellUITests.swift */,
+				C8DE77A226E375B300FB7D62 /* Info.plist */,
+			);
+			path = SchoolBellUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8DE777F26E375B200FB7D62 /* SchoolBell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8DE77A526E375B300FB7D62 /* Build configuration list for PBXNativeTarget "SchoolBell" */;
+			buildPhases = (
+				C8DE777C26E375B200FB7D62 /* Sources */,
+				C8DE777D26E375B200FB7D62 /* Frameworks */,
+				C8DE777E26E375B200FB7D62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SchoolBell;
+			productName = SchoolBell;
+			productReference = C8DE778026E375B200FB7D62 /* SchoolBell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8DE779026E375B300FB7D62 /* SchoolBellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8DE77A826E375B300FB7D62 /* Build configuration list for PBXNativeTarget "SchoolBellTests" */;
+			buildPhases = (
+				C8DE778D26E375B300FB7D62 /* Sources */,
+				C8DE778E26E375B300FB7D62 /* Frameworks */,
+				C8DE778F26E375B300FB7D62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8DE779326E375B300FB7D62 /* PBXTargetDependency */,
+			);
+			name = SchoolBellTests;
+			productName = SchoolBellTests;
+			productReference = C8DE779126E375B300FB7D62 /* SchoolBellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C8DE779B26E375B300FB7D62 /* SchoolBellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8DE77AB26E375B300FB7D62 /* Build configuration list for PBXNativeTarget "SchoolBellUITests" */;
+			buildPhases = (
+				C8DE779826E375B300FB7D62 /* Sources */,
+				C8DE779926E375B300FB7D62 /* Frameworks */,
+				C8DE779A26E375B300FB7D62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8DE779E26E375B300FB7D62 /* PBXTargetDependency */,
+			);
+			name = SchoolBellUITests;
+			productName = SchoolBellUITests;
+			productReference = C8DE779C26E375B300FB7D62 /* SchoolBellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8DE777826E375B200FB7D62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C8DE777F26E375B200FB7D62 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					C8DE779026E375B300FB7D62 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C8DE777F26E375B200FB7D62;
+					};
+					C8DE779B26E375B300FB7D62 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C8DE777F26E375B200FB7D62;
+					};
+				};
+			};
+			buildConfigurationList = C8DE777B26E375B200FB7D62 /* Build configuration list for PBXProject "SchoolBell" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8DE777726E375B200FB7D62;
+			productRefGroup = C8DE778126E375B200FB7D62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8DE777F26E375B200FB7D62 /* SchoolBell */,
+				C8DE779026E375B300FB7D62 /* SchoolBellTests */,
+				C8DE779B26E375B300FB7D62 /* SchoolBellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8DE777E26E375B200FB7D62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8DE778B26E375B300FB7D62 /* Preview Assets.xcassets in Resources */,
+				C8DE778826E375B300FB7D62 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8DE778F26E375B300FB7D62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8DE779A26E375B300FB7D62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8DE777C26E375B200FB7D62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8DE778626E375B200FB7D62 /* ContentView.swift in Sources */,
+				C8DE778426E375B200FB7D62 /* SchoolBellApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8DE778D26E375B300FB7D62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8DE779626E375B300FB7D62 /* SchoolBellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8DE779826E375B300FB7D62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8DE77A126E375B300FB7D62 /* SchoolBellUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8DE779326E375B300FB7D62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8DE777F26E375B200FB7D62 /* SchoolBell */;
+			targetProxy = C8DE779226E375B300FB7D62 /* PBXContainerItemProxy */;
+		};
+		C8DE779E26E375B300FB7D62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8DE777F26E375B200FB7D62 /* SchoolBell */;
+			targetProxy = C8DE779D26E375B300FB7D62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C8DE77A326E375B300FB7D62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C8DE77A426E375B300FB7D62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8DE77A626E375B300FB7D62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SchoolBell/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SchoolBell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thk.SchoolBell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8DE77A726E375B300FB7D62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SchoolBell/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SchoolBell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thk.SchoolBell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C8DE77A926E375B300FB7D62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SchoolBellTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thk.SchoolBellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchoolBell.app/SchoolBell";
+			};
+			name = Debug;
+		};
+		C8DE77AA26E375B300FB7D62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SchoolBellTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thk.SchoolBellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchoolBell.app/SchoolBell";
+			};
+			name = Release;
+		};
+		C8DE77AC26E375B300FB7D62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SchoolBellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thk.SchoolBellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SchoolBell;
+			};
+			name = Debug;
+		};
+		C8DE77AD26E375B300FB7D62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SchoolBellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thk.SchoolBellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SchoolBell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8DE777B26E375B200FB7D62 /* Build configuration list for PBXProject "SchoolBell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8DE77A326E375B300FB7D62 /* Debug */,
+				C8DE77A426E375B300FB7D62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8DE77A526E375B300FB7D62 /* Build configuration list for PBXNativeTarget "SchoolBell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8DE77A626E375B300FB7D62 /* Debug */,
+				C8DE77A726E375B300FB7D62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8DE77A826E375B300FB7D62 /* Build configuration list for PBXNativeTarget "SchoolBellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8DE77A926E375B300FB7D62 /* Debug */,
+				C8DE77AA26E375B300FB7D62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8DE77AB26E375B300FB7D62 /* Build configuration list for PBXNativeTarget "SchoolBellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8DE77AC26E375B300FB7D62 /* Debug */,
+				C8DE77AD26E375B300FB7D62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8DE777826E375B200FB7D62 /* Project object */;
+}
