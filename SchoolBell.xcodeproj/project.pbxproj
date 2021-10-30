@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8990F5B272D30CA00C1E862 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8990F5A272D30CA00C1E862 /* Extensions.swift */; };
 		C8DE778426E375B200FB7D62 /* SchoolBellApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DE778326E375B200FB7D62 /* SchoolBellApp.swift */; };
 		C8DE778626E375B200FB7D62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DE778526E375B200FB7D62 /* ContentView.swift */; };
 		C8DE778826E375B300FB7D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8DE778726E375B300FB7D62 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C8990F5A272D30CA00C1E862 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C8DE778026E375B200FB7D62 /* SchoolBell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolBell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8DE778326E375B200FB7D62 /* SchoolBellApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolBellApp.swift; sourceTree = "<group>"; };
 		C8DE778526E375B200FB7D62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				C8DE77AE26E38F4E00FB7D62 /* MainView.swift */,
 				C8DE77B026E38F6F00FB7D62 /* SettingsView.swift */,
 				C8DE77B226E3A32D00FB7D62 /* TimeSettingView.swift */,
+				C8990F5A272D30CA00C1E862 /* Extensions.swift */,
 			);
 			path = SchoolBell;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8DE778626E375B200FB7D62 /* ContentView.swift in Sources */,
+				C8990F5B272D30CA00C1E862 /* Extensions.swift in Sources */,
 				C8DE77B126E38F6F00FB7D62 /* SettingsView.swift in Sources */,
 				C8DE77AF26E38F4E00FB7D62 /* MainView.swift in Sources */,
 				C8DE778426E375B200FB7D62 /* SchoolBellApp.swift in Sources */,

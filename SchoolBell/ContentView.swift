@@ -17,18 +17,39 @@ struct ContentView: View {
     
     var body: some View {
         TabView(selection: $selection) {
-            MainView()
-                .tabItem {
-                    Label("메인", systemImage: "house")
-                }
-                .tag(Tab.main)
+            NavigationView {
+                MainView()
+            }
+            .tag(Tab.main)
+            .tabItem {
+                Label("메인", systemImage: "house")
+            }
             
-            SettingsView()
-                .tabItem {
-                    Label("설정", systemImage: "slider.horizontal.3")
-                }
-                .tag(Tab.settings)
+            NavigationView {
+                SettingsView()
+            }
+            .tag(Tab.settings)
+            .tabItem {
+                Label("설정", systemImage: "slider.horizontal.3")
+            }
+            
         }
+        
+//        NavigationView {
+//            TabView(selection: $selection) {
+//                MainView()
+//                    .tabItem {
+//                        Label("메인", systemImage: "house")
+//                    }
+//                    .tag(Tab.main)
+//
+//                SettingsView()
+//                    .tabItem {
+//                        Label("설정", systemImage: "slider.horizontal.3")
+//                    }
+//                    .tag(Tab.settings)
+//            }
+//        }
     }
 }
 
